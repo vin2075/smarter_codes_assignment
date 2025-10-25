@@ -1,0 +1,42 @@
+
+---
+
+## 🧠 **Backend `.gitignore`**
+```gitignore
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.log
+
+# Virtual environments
+.env
+.venv/
+venv/
+env/
+
+# PyCharm & VSCode
+.idea/
+.vscode/
+*.code-workspace
+
+# Byte-compiled / cache
+*.pyc
+*.__pycache__/
+
+# Docker
+*.pid
+*.db
+*.sqlite3
+*.egg-info/
+
+# Model / temporary files
+*.pt
+*.pkl
+*.zip
+*.json
+
+# OS
+.DS_Store
+Thumbs.db
